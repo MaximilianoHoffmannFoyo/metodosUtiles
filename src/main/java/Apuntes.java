@@ -6,7 +6,16 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Apuntes {
-
+/*
+    Las clases hijas no se pueden crear como el new del padre pero alreves si
+    NO --> hijo h = new padre();
+    SI --> padre p = new hijo(); pero no puede acceder a los metodos del hijo
+    
+    this --> propia clase
+    super --> clase padre
+    
+    en una lista de objetos padre se pueden meter objetos hijos
+    */
     private static void VariablesYConstantes() {
         //Declaracion de variables
         int var1, var2;
